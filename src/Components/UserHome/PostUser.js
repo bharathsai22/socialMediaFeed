@@ -27,7 +27,6 @@ import img3 from  "../../assets/Following/img-4.jpg"
 
 
 import { useState } from 'react';
-import Comments from '../Comments/Comments';
 import moment from 'moment';
 
 
@@ -239,14 +238,6 @@ const handleDelete=(id)=>{
         </form>
 
         <div className="sticky">
-          {comments.map((cmt)=>(
-            <Comments 
-            modelDetails={modelDetails}
-            className="classComment"
-            cmt={cmt}
-            key={cmt.id}
-            />
-          ))}
           </div>
         </div>
         )}

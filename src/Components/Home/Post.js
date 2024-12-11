@@ -28,7 +28,6 @@ import img3 from  "../../assets/Following/img-4.jpg"
 import Profile from "../../assets/profile.jpg"
 
 import { useState } from 'react';
-import Comments from '../Comments/Comments';
 import moment from 'moment';
 import { Link } from 'react-router-dom';
 
@@ -246,13 +245,6 @@ const handleDelete=(id)=>{
         </form>
 
         <div className="sticky">
-          {comments.map((cmt)=>(
-            <Comments 
-            className="classComment"
-            cmt={cmt}
-            key={cmt.id}
-            />
-          ))}
           </div>
         </div>
         )}
