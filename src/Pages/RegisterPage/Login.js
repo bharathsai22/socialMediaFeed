@@ -65,8 +65,15 @@ const Login = () => {
     <div className="container">
         <div className="container-form">
             <form onSubmit={handleSignUp}>
-                <h1>Login</h1>
-                <p>Please sign in to continue.</p>
+                <h1>login</h1>
+                <div>
+                    <img src="https://drive.google.com/file/d/1dPz8hVOy1OTp9vQIWHmqSfT-f1d-LYcm/view?usp=sharing" className="loginImage"/>
+                </div>
+                <div>
+                    <h1 className="loginHeading">Vibesnap</h1>
+                    <p className="loginParagraph">
+                    Moments That Matter, Shared Forever.</p>
+                </div>
                 <div className="inputBox">
                     <FiMail className='mail'/>
                     <input type="email" 
