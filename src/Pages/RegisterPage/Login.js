@@ -67,7 +67,7 @@ const Login = () => {
             <form onSubmit={handleSignUp}>
                 <h1>login</h1>
                 <div>
-                    <img src="https://drive.google.com/file/d/1dPz8hVOy1OTp9vQIWHmqSfT-f1d-LYcm/view?usp=sharing" className="loginImage"/>
+                    <img src="https://res.cloudinary.com/dxevbz0nd/image/upload/v1733925638/Group_1171276169_dopi1j.png" className="loginImage"/>
                 </div>
                 <div>
                     <h1 className="loginHeading">Vibesnap</h1>
