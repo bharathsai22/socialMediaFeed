@@ -16,13 +16,13 @@ import DPimg6 from "../assets/DP/img6.jpg"
 
 export const DisPlayPostData =[
     {
-      username:"Harry",
+      username:"Aarav",
       profilepicture:DPimg1,
       img:img1,
-      datetime:"April 01, 2023 12:05 AM",
-      body:"My 1st Post, Have A Good Day",
-      like: 44,
-      comment:10
+      datetime:"December 12, 2024 12:05 AM",
+      body:"Just arrived in New York City! Excited to explore the sights, sounds, and energy of this amazing place. 🗽 #NYC #Travel",
+      like: 0,
+      comment:0
     },
     {
       username:"chris dhaniel",

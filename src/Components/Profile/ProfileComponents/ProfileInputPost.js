@@ -35,26 +35,26 @@ const ProfileInputPost = ({handleSubmit,
       <div className="file-icons">
           <label htmlFor='file' className="pv-upload">
             <PhotoLibraryIcon className="input-svg" style={{fontSize:"38px",color:"orangered"}}/>
-            <span className='photo-dis'>Photo</span>
+            <span className='photo-dis'></span>
           </label>
 
           <div className="pv-upload">
             <PlayCircleFilledOutlinedIcon className="input-svg" style={{fontSize:"38px",color:"black"}}/>
-            <span className='photo-dis'>Video</span>
+            <span className='photo-dis'></span>
           </div>
 
           <div className="pv-upload">
             <KeyboardVoiceRoundedIcon className="input-svg" style={{fontSize:"38px",color:"green"}}/>
-            <span className='photo-dis'>Audio</span>
+            <span className='photo-dis'></span>
           </div>
 
           <div className="pv-upload">
             <FaSmile className="input-svg" style={{fontSize:"30px",color:"red"}}/>
-            <span className='photo-dis'>Location</span>
+            <span className='photo-dis'></span>
           </div>
       </div>
       
-          <button type='submit'>Share</button>
+          <button type='submit'></button>
             
       </div>
 

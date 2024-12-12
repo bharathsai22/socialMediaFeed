@@ -1,10 +1,9 @@
 import "../Post/InputPost.css"
 import Profile from "../../assets/profile.jpg"
-import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
+
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
-import PlayCircleFilledOutlinedIcon from '@mui/icons-material/PlayCircleFilledOutlined';
-import KeyboardVoiceRoundedIcon from '@mui/icons-material/KeyboardVoiceRounded';
-import {FaSmile} from "react-icons/fa"
+
+
 
 
 
@@ -20,41 +19,43 @@ const InputPost = ({handleSubmit,
         <form onSubmit={handleSubmit}>
             <div className="i-input-box">
                 <img src={Profile} className='i-img'/>
-                
                 <input 
                 type="text" 
                 id="i-input" 
-                placeholder="What's in your mind Vijay?"
+                placeholder=""
                 required
                 value={body}
                 onChange={(e)=>setBody(e.target.value)}
                 />
+                <div>
+                <p>Welcome Back</p>
+                <h1>Sakshi Agarwal</h1></div>
             </div>
 
      <div className="file-upload">
       <div className="file-icons">
           <label htmlFor="file" className="pv-upload">
-            <PhotoLibraryIcon className="input-svg" style={{fontSize:"38px",color:"orangered"}}/>
-            <span className='photo-dis'>Photo</span>
+            
+            <span className='photo-dis'></span>
           </label>
 
           <div className="pv-upload">
-            <PlayCircleFilledOutlinedIcon className="input-svg" style={{fontSize:"38px",color:"black"}}/>
-            <span className='photo-dis'>Video</span>
+            
+            <span className='photo-dis'></span>
           </div>
 
           <div className="pv-upload">
-            <KeyboardVoiceRoundedIcon className="input-svg" style={{fontSize:"38px",color:"green"}}/>
-            <span className='photo-dis'>Audio</span>
+            
+            <span className='photo-dis'></span>
           </div>
 
           <div className="pv-upload">
-            <FaSmile className="input-svg" style={{fontSize:"30px",color:"red"}}/>
-            <span className='photo-dis'>Feelings/Activity</span>
+            
+            <span className='photo-dis'></span>
           </div>
       </div>
        
-          <button type='submit'>Share</button>
+
             
       </div>
 

@@ -25,7 +25,7 @@
     align-items: center;
     cursor: pointer;
     gap: 28px;
-    color: orangered;
+    color: rgb(241, 124, 196);
     position: relative;
     width: 100%;
 }
@@ -83,7 +83,7 @@
     padding:0px 7px;
     font-weight:600;
     font-size: 20px;
-    color: orangered;
+    color: rgb(243, 133, 195);
 }
 .post-header p{
     color: black;
@@ -175,7 +175,7 @@
    
 }
 .cmtGroup input:focus{
-    outline: 1px solid orangered;
+    outline: 1px solid rgb(229, 120, 217);
 }
 .cmtGroup svg{
     font-size: 30px;
@@ -187,11 +187,11 @@
     top: 50%;
     left: 25px;
     transform: translate(-50%,-50%);
-    color: orangered;
+    color: rgb(237, 135, 196);
 }
 .cmtGroup .send{
     margin-left: 10px;
-    color: orangered;
+    color: rgb(253, 148, 229);
 }
 .cmtGroup button{
     border: none;
@@ -254,7 +254,7 @@ a:active {
   /* Instagram Button Styling */
 
   .instagram {
-    border-color: orangered;
+    border-color: rgb(231, 114, 173);
     background-color: orangered;
     color: #ffffff;
     display: flex;
@@ -392,7 +392,7 @@ a:active {
         margin-top: -20px;
         
         border-radius: 0px;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(244, 134, 202);
     }
     .post .post-img{
         height: 330px;
@@ -532,7 +532,7 @@ a:active {
         margin-bottom: 10px;  
         padding: 15px 10px 15px 10px;
         border-radius: 10px;
-        background-color: #fff;
+        background-color: #f480e8;
     }
     .post .post-img{
         height: 300px;

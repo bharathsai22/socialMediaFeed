@@ -135,11 +135,11 @@ const handleDelete=(id)=>{
          
          <div className='delete'>
          {showDelete && (<div className="options">
-            <button><PiSmileySad />Not Interested in this post</button>
-            <button><IoVolumeMuteOutline />Mute this user</button>
-            <button><MdBlockFlipped />Block this user</button>
-            <button onClick={()=>handleDelete(post.id)}><AiOutlineDelete />Delete</button>
-            <button><MdReportGmailerrorred />Report post</button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button onClick={()=>handleDelete(post.id)}></button>
+            <button></button>
          </div>
         
          )}
@@ -166,10 +166,7 @@ const handleDelete=(id)=>{
               {filledLike}
           </p>
 
-          <MessageRoundedIcon 
-            onClick= {()=>setShowComment(!showComment)}
-            className='msg'  
-          />
+         
 
           <ShareOutlinedIcon 
             onClick={()=>setSocialIcons(!socialIcons)}
@@ -220,8 +217,8 @@ const handleDelete=(id)=>{
         
 
         <div className="like-comment-details">
-          <span className='post-like'>{like} people like it,</span>
-          <span className='post-comment'>{comments.length} comments</span>
+          <span className='post-like'></span>
+          <span className='post-comment'></span>
         </div>
         
        {showComment && (<div className="commentSection">
