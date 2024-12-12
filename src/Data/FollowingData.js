@@ -6,7 +6,7 @@ import Fimg5 from "../assets/Following/img-5.jpg"
 
 export const FollowimgData =[
     {   
-        name:"Mike Tysion",
+        name:"Mike Tysion  hh",
         username:"@MrMikeTysion",
         img:Fimg1
     },
