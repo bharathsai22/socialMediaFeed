@@ -1,64 +1,8 @@
 # About
 
- "FACE GRAM" is a Social media application which has all Basic features of Facebook, Twitter. "FACE GRAM" app is a dynamic web application that leverages the popular JavaScript library, React, to create an engaging and interactive user interface for social networking. Here's a detailed description of the front-end aspects of such an app.In this Application People can create a Post, Like, Share and Comment get a Social Media Kind-of Environment.
+ social media feed web application that implements infinite scrolling and user authentication using Firebase (or Supabase/own backend). 
 
-# Tech Stack💻:
-
-* Javascript
-     - React js
-* CSS3
-  
-# Features🗒:
-
-**Login📈:**
-
-* Normal Sign up and Log-in page.
-  
-**Account🕴:**
-
-* Follow, Unfollow
-* Profile View
-* Search similar people with the same Profile Tag
-* Suggestion Listing to Explore
-* Notification
-* Add Bio
-* Edit Bio
-* Change Profile Picture
-* Change Cover Picture
-  
-**Post✉️:**
-
-* Public Post
-* Like
-* Comment with text
-* Recommend post
-* Delete Post
-* Post with image
-  
-**Formats➿:**
-
-* Time Formats in Hours for each component
-
-## Responsive Design:
-
-* Ensuring that the app is responsive on various devices and screen sizes is crucial.
-* React components can be designed to adapt and reflow content to provide an optimal user experience on both desktop and mobile devices.
-
-## Navigation:
-
-* Navigation within the app can be implemented using React Router or a custom routing solution. Users can switch between the news feed and their profiles.
-
-## User Experience:
-
-* React's component-based architecture allows you to create a smooth user experience with interactive elements, animations, and transitions.
-
-
-
-
-
-
-
-
+The application will focus on mobile and tablet support, ensuring that the web version mirrors the mobile experience for consistency. Users will be able to create posts that include text, images, and videos, and they will have the ability to share content with other applications. The project will also include user profiles that display essential information such as the user's bio, name, profile picture, and a section for their posts. The overall aim is to deliver a polished and engaging social media platform that prioritizes user interaction and ease of use.
 
 
 
