@@ -32,10 +32,9 @@ import Uimg3 from "../../assets/User-post/img3.jpg"
 
 import "../Home/Home.css"
 
-import Left from "../../Components/LeftSide/Left"
+
 import Middle from "../../Components/MiddleSide/Middle"
-import Right from '../../Components/RightSide/Right'
-import Nav from '../../Components/Navigation/Nav'
+
 import moment from 'moment/moment'
 
 const Home = ({setFriendsProfile}) => {
@@ -234,16 +233,11 @@ const Home = ({setFriendsProfile}) => {
 
   return (
     <div className='interface'>
-        <Nav 
-        search={search}
-        setSearch={setSearch}
-        showMenu={showMenu}
-        setShowMenu={setShowMenu}
-        />
+        
 
     <div className="home">
    
-        <Left />
+
 
         <Middle 
         handleSubmit={handleSubmit}
@@ -260,12 +254,7 @@ const Home = ({setFriendsProfile}) => {
 
         />
 
-        <Right
-        showMenu={showMenu}
-        setShowMenu={setShowMenu}
-        following={following}
-        setFollowing={setFollowing}
-        />
+       
     </div>
 
     </div>
